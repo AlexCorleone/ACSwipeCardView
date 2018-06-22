@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA8DE71C20DC973E0070942E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DE71B20DC973E0070942E /* AppDelegate.m */; };
-		FA8DE71F20DC973E0070942E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DE71E20DC973E0070942E /* ViewController.m */; };
+		FA8DE71C20DC973E0070942E /* ACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DE71B20DC973E0070942E /* ACAppDelegate.m */; };
+		FA8DE71F20DC973E0070942E /* ACSwipCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DE71E20DC973E0070942E /* ACSwipCardVC.m */; };
 		FA8DE72220DC973E0070942E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8DE72020DC973E0070942E /* Main.storyboard */; };
 		FA8DE72420DC97400070942E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8DE72320DC97400070942E /* Assets.xcassets */; };
 		FA8DE72720DC97400070942E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8DE72520DC97400070942E /* LaunchScreen.storyboard */; };
 		FA8DE72A20DC97400070942E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DE72920DC97400070942E /* main.m */; };
+		FA8DE73520DC98E20070942E /* WQKSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DE73320DC98E20070942E /* WQKSwipeCardView.m */; };
+		FA8DE73620DC98E20070942E /* WQKSwipeCardCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DE73420DC98E20070942E /* WQKSwipeCardCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA8DE71720DC973E0070942E /* ACSwipeCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACSwipeCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA8DE71A20DC973E0070942E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FA8DE71B20DC973E0070942E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA8DE71D20DC973E0070942E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA8DE71E20DC973E0070942E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA8DE71A20DC973E0070942E /* ACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACAppDelegate.h; sourceTree = "<group>"; };
+		FA8DE71B20DC973E0070942E /* ACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACAppDelegate.m; sourceTree = "<group>"; };
+		FA8DE71D20DC973E0070942E /* ACSwipCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACSwipCardVC.h; sourceTree = "<group>"; };
+		FA8DE71E20DC973E0070942E /* ACSwipCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACSwipCardVC.m; sourceTree = "<group>"; };
 		FA8DE72120DC973E0070942E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA8DE72320DC97400070942E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8DE72620DC97400070942E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA8DE72820DC97400070942E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8DE72920DC97400070942E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA8DE73120DC98E20070942E /* WQKSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQKSwipeCardView.h; sourceTree = "<group>"; };
+		FA8DE73220DC98E20070942E /* WQKSwipeCardCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQKSwipeCardCenter.h; sourceTree = "<group>"; };
+		FA8DE73320DC98E20070942E /* WQKSwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQKSwipeCardView.m; sourceTree = "<group>"; };
+		FA8DE73420DC98E20070942E /* WQKSwipeCardCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQKSwipeCardCenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,11 @@
 		FA8DE71920DC973E0070942E /* ACSwipeCardView */ = {
 			isa = PBXGroup;
 			children = (
-				FA8DE71A20DC973E0070942E /* AppDelegate.h */,
-				FA8DE71B20DC973E0070942E /* AppDelegate.m */,
-				FA8DE71D20DC973E0070942E /* ViewController.h */,
-				FA8DE71E20DC973E0070942E /* ViewController.m */,
+				FA8DE73020DC98830070942E /* ACSwipCardView */,
+				FA8DE71A20DC973E0070942E /* ACAppDelegate.h */,
+				FA8DE71B20DC973E0070942E /* ACAppDelegate.m */,
+				FA8DE71D20DC973E0070942E /* ACSwipCardVC.h */,
+				FA8DE71E20DC973E0070942E /* ACSwipCardVC.m */,
 				FA8DE72020DC973E0070942E /* Main.storyboard */,
 				FA8DE72320DC97400070942E /* Assets.xcassets */,
 				FA8DE72520DC97400070942E /* LaunchScreen.storyboard */,
@@ -69,6 +76,17 @@
 				FA8DE72920DC97400070942E /* main.m */,
 			);
 			path = ACSwipeCardView;
+			sourceTree = "<group>";
+		};
+		FA8DE73020DC98830070942E /* ACSwipCardView */ = {
+			isa = PBXGroup;
+			children = (
+				FA8DE73220DC98E20070942E /* WQKSwipeCardCenter.h */,
+				FA8DE73420DC98E20070942E /* WQKSwipeCardCenter.m */,
+				FA8DE73120DC98E20070942E /* WQKSwipeCardView.h */,
+				FA8DE73320DC98E20070942E /* WQKSwipeCardView.m */,
+			);
+			path = ACSwipCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +115,7 @@
 		FA8DE70F20DC973E0070942E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AC;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = AlexCorleone;
 				TargetAttributes = {
@@ -141,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA8DE71F20DC973E0070942E /* ViewController.m in Sources */,
+				FA8DE73620DC98E20070942E /* WQKSwipeCardCenter.m in Sources */,
+				FA8DE71F20DC973E0070942E /* ACSwipCardVC.m in Sources */,
+				FA8DE73520DC98E20070942E /* WQKSwipeCardView.m in Sources */,
 				FA8DE72A20DC97400070942E /* main.m in Sources */,
-				FA8DE71C20DC973E0070942E /* AppDelegate.m in Sources */,
+				FA8DE71C20DC973E0070942E /* ACAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +305,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S88Z2GR6;
 				INFOPLIST_FILE = ACSwipeCardView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +323,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63S88Z2GR6;
 				INFOPLIST_FILE = ACSwipeCardView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
