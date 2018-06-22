@@ -30,15 +30,12 @@
         #pragma mark - WQKSwipeCardCenterDelegate
         - (void)swipeCardCenter:(WQKSwipeCardCenter *)swipeCenter cardViewWillDisappear:(WQKSwipeCardView *)cardView atIndex:(NSInteger)index
         {
-        
             NSLog(@"----%ld视图将要消失", index);
-            
         }
         
         - (void)swipeCardCenter:(WQKSwipeCardCenter *)swipeCenter cardViewDidDisappear:(WQKSwipeCardView *)cardView atIndex:(NSInteger)index
         {
-            NSLog(@"----%ld视图已经消失", index);
-            
+            NSLog(@"----%ld视图已经消失", index);  
         }
         
         - (void)swipeCardCenter:(WQKSwipeCardCenter *)swipeCenter didClickCardView:(WQKSwipeCardView *)cardView atIndex:(NSInteger)index
