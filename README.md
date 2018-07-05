@@ -1,5 +1,5 @@
 # ACSwipeCardView
-类似中信书院、探探、实现的卡片滑动切换效果
+类似中信书院、探探、实现的卡片滑动切换效果(SwipeCardView)
 使用方法：
    初始化WQKSwipeCardCenter类,指定delegate和datasource,指定支持的滑动方向，设置数据源，
                                                                                                                                                                                       
